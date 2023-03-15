@@ -1,0 +1,27 @@
+/* #root {
+  height: 100%;
+} */
+
+.Compositions {
+  /* color: purple; */
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: large;
+}
+
+.Compositions-table table {
+  margin: 0 auto;
+}
+
+.Compositions-table td, th {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+  font-weight: bold;
+}
+
+.subfield {
+  /* font-style: italic; */
+  font-weight: normal;
+}

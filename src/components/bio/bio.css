@@ -1,0 +1,21 @@
+.Bio {
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 20px;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Bio-text {
+  justify-content: center;
+  align-items: center;
+  max-width: 550px;
+}
+
+.Bio-text p {
+  display: flex;
+  text-align: left;
+  max-width: 550px;
+}

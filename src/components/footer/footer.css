@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.footer-links {
+  flex: 1;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer-links p {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 0.6rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .footer-links {
+    font-size: 0.8rem;
+  }
+}
