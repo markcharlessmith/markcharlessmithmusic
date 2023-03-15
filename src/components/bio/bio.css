@@ -11,11 +11,14 @@
 .Bio-text {
   justify-content: center;
   align-items: center;
-  max-width: 550px;
+  /* max-width: 550px; */
 }
 
 .Bio-text p {
   display: flex;
   text-align: left;
-  max-width: 550px;
+  /* max-width: 750px;
+  min-width: 150px; */
+  width: auto;
+  /* width: 100%; */
 }

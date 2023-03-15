@@ -2,6 +2,10 @@
   position: fixed;
 }
 
+.Contact h2 {
+  font-size: 1rem;
+}
+
 #root {
   position: fixed;
 }

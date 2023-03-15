@@ -1,4 +1,15 @@
 .Audio-iframe {
-  /* background: #000000aa; */
-  /* height: auto; */
+  border: none;
+}
+
+
+.Audio p {
+  color: white;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+  .Audio p {
+    font-size: 0.4rem;
+  }
 }

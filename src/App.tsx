@@ -9,10 +9,9 @@ import Contact from './components/contact/Contact'
 import Home from './components/home/Home'
 import Copyright from './components/copyright/Copyright'
 import './App.css'
+import { images, compositionsList } from './data'
 
 function App() {
-  const images = ['src/assets/LightExists.jpg', 'src/assets/Triptych.jpg', 'src/assets/Kickstarter.jpg','src/assets/Trio.jpg', 'src/assets/Premiere.jpg', 'src/assets/markpurple.jpg',];
-
   return (
     <>
     <div className="App">
@@ -27,7 +26,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/bio" element={<Bio />}/>
-      <Route path="/compositions" element={<Compositions />}/>
+      <Route path="/compositions" element={<Compositions compositions={compositionsList} />}/>
       <Route path="/audio" element={<Audio />}/>
       <Route path="/gallery" element={<Gallery images={images}/>}/>
       <Route path="/contact" element={<Contact />}/>

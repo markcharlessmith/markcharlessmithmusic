@@ -1,9 +1,10 @@
 import React from 'react'
+// import './contact.css'
 
 const Contact = () => {
   return (
     <div className='Contact'>
-      <h2>markcharlessmith@gmail.com</h2>
+      <h3>markcharlessmith@gmail.com</h3>
     </div>
   )
 }

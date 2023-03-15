@@ -1,9 +1,4 @@
-/* #root {
-  height: 100%;
-} */
-
 .Compositions {
-  /* color: purple; */
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -15,13 +10,24 @@
 }
 
 .Compositions-table td, th {
-  border: 1px solid black;
+  border: 1px solid rgb(18, 18, 18);
   border-radius: 5px;
   padding: 0.5rem 0.5rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .subfield {
   /* font-style: italic; */
-  font-weight: normal;
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+.subfield p {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .Compositions-table td, th {
+    font-size: 0.7rem;
+  }
 }

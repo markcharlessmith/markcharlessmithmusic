@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 500px) {
   .navbar-links {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
@@ -65,5 +65,11 @@
   .navbar-links {
     margin: 0 2rem;
     font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .navbar-links {
+    font-size: 1.5rem;
   }
 }
