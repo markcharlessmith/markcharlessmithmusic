@@ -1,4 +1,4 @@
-export const images: string[] = ['src/assets/LightExists.jpg', 'src/assets/Triptych.jpg', 'src/assets/Kickstarter.jpg','src/assets/Trio.jpg', 'src/assets/Premiere.jpg', 'src/assets/markpurple.jpg',];
+export const images: string[] = ['assets/LightExists.jpg', 'assets/Triptych.jpg', 'assets/Kickstarter.jpg','assets/Trio.jpg', 'assets/Premiere.jpg', 'assets/markpurple.jpg',];
 
 interface Composition {
   title: string;

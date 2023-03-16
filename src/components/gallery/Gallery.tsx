@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './gallery.css';
 // import images from '../../App'
+// import { images } from '../../data'
 
 type GalleryProps = {
   images: string[];
