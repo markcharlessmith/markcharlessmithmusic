@@ -29,7 +29,7 @@ function App() {
       <Route path="/compositions" element={<Compositions compositions={compositionsList} />}/>
       <Route path="/audio" element={<Audio />}/>
       <Route path="/gallery" element={<Gallery images={images}/>}/>
-      <Route path="/contact" element={<Contact />}/>
+      <Route path="/lessons" element={<Contact />}/>
     </Routes>
     </div>
     <div className='App-footer'>

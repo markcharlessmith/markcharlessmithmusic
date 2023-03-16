@@ -1,8 +1,8 @@
 .Bio {
-  margin: 0 auto;
-  width: 50%;
+  margin: 0 0.5rem;
+  /* width: 70%; */
   border-radius: 20px;
-  padding: 2rem 1rem;
+  padding: 0.5rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,14 +11,30 @@
 .Bio-text {
   justify-content: center;
   align-items: center;
-  /* max-width: 550px; */
+}
+
+#Bio-header {
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 .Bio-text p {
-  display: flex;
-  text-align: left;
-  /* max-width: 750px;
-  min-width: 150px; */
-  width: auto;
-  /* width: 100%; */
+    display: flex;
+    text-align: left;
+    width: auto;
+    min-width: 50%;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+@media screen and (min-width: 1400px) {
+  .Bio-text {
+    width: 70%;
+    align-items: center;
+  }
+  .Bio-text p {
+    align-items: center;
+    
+  }
+  
 }

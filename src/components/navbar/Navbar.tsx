@@ -10,7 +10,7 @@ const MyNavbar = () => {
         <Link to="/compositions">Compositions </Link>
         <Link to="/audio">Audio </Link>
         <Link to="/gallery">Gallery </Link>
-        <Link to="/contact">Contact </Link>
+        <Link to="/lessons">Lessons </Link>
       </div>
     </div>
   )

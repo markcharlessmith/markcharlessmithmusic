@@ -1,11 +1,44 @@
 .Contact {
-  position: fixed;
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.Contact h2 {
-  font-size: 1rem;
+#Contact-header {
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
-#root {
-  position: fixed;
+.Contact-text {
+  justify-content: center;
+  align-items: center;
+  /* max-width: 550px; */
+}
+
+.Contact-text p {
+  display: flex;
+  text-align: left;
+  width: auto;
+  min-width: 50%;
+  max-width: 70%;
+  margin: 0 auto;
+  /* left: 33%; */
+  /* right: 33% */
+  /* width: 100%; */
+}
+
+@media screen and (min-width: 1400px) {
+  .Contact-text {
+    width: 70%;
+    align-items: center;
+  }
+  .Contact-text p {
+    align-items: center;
+    
+  }
+  
 }
