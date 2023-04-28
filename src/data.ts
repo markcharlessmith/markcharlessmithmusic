@@ -7,7 +7,14 @@ interface Composition {
   year: string;
 }
 
-export const compositionsList: Composition[] = [{
+export const compositionsList: Composition[] = [
+// {
+//   title: 'Five Pieces for Guitar',
+//   movements: ['I. Firsts', 'II. Octopus Dance', 'III. Intermezzo', 'IV. Bring It On', 'V. Con Abbandono'],
+//   instrumentation: 'Guitar',
+//   year: '2023',
+// },  
+{
   title: 'Seven Preludes for Guitar',
   movements: ['in D Major', 'in A Major', 'in E Major', 'in f sharp minor', 'in D flat Major', 'in b flat minor', 'in f minor'],
   instrumentation: 'Guitar',
