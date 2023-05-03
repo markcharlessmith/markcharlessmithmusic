@@ -9,8 +9,8 @@ interface Composition {
 
 export const compositionsList: Composition[] = [
 // {
-//   title: 'Five Pieces for Guitar',
-//   movements: ['I. Firsts', 'II. Octopus Dance', 'III. Intermezzo', 'IV. Bring It On', 'V. Con Abbandono'],
+//   title: 'Seven Pieces for Guitar',
+//   movements: ['I. Firsts', 'II. Octopus Dance', 'III. Bring It On', 'IV. Intermezzo', 'V. untitled', 'VI. untitled', 'VII. Con Abbandono'],
 //   instrumentation: 'Guitar',
 //   year: '2023',
 // },  
