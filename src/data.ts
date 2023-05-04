@@ -8,12 +8,12 @@ interface Composition {
 }
 
 export const compositionsList: Composition[] = [
-// {
-//   title: 'Seven Pieces for Guitar',
-//   movements: ['I. Firsts', 'II. Octopus Dance', 'III. Bring It On', 'IV. Intermezzo', 'V. untitled', 'VI. untitled', 'VII. Con Abbandono'],
-//   instrumentation: 'Guitar',
-//   year: '2023',
-// },  
+{
+  title: 'Seven Pieces for Guitar',
+  movements: ['I. Firsts', 'II. Octopus Dance', 'III. Bring It On', 'IV. Intermezzo', 'V. untitled', 'VI. untitled', 'VII. Con Abbandono'],
+  instrumentation: 'Guitar',
+  year: '2023',
+},  
 {
   title: 'Seven Preludes for Guitar',
   movements: ['in D Major', 'in A Major', 'in E Major', 'in f sharp minor', 'in D flat Major', 'in b flat minor', 'in f minor'],
