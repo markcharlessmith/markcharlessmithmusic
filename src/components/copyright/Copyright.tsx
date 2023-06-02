@@ -1,9 +1,11 @@
 import './copyright.css';
 
 const Copyright = () => {
+  let year = new Date().getFullYear();
+
   return (
     <div className='copyright'>
-      © Copyright 2023 Mark Charles Smith.  All rights reserved.
+      © Copyright {year} Mark Charles Smith.  All rights reserved.
     </div>
     
   )
