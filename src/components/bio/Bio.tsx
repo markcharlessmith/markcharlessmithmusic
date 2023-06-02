@@ -1,7 +1,7 @@
 import React from 'react'
 import './bio.css'
 
-const Bio = () => {
+const Bio: React.FC = () => {
   return (
     <>
      <h4 id='Bio-header'>About me</h4>

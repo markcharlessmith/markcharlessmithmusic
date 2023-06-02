@@ -3,7 +3,7 @@ import { FaBandcamp } from 'react-icons/fa';
 import { IoLogoVenmo } from 'react-icons/io5';
 import './footer.css'
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <div className='footer'>
       <div className='footer-links'>

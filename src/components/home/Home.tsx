@@ -1,7 +1,7 @@
 import React from 'react'
 import markpurple from '../../assets/markpurple.jpg'
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <>
     <div className='Image'>

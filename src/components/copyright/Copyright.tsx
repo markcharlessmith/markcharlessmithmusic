@@ -1,6 +1,6 @@
 import './copyright.css';
 
-const Copyright = () => {
+const Copyright: React.FC = () => {
   let year = new Date().getFullYear();
 
   return (

@@ -1,6 +1,6 @@
 import './audio.css'
 
-const Audio = () => {
+const Audio: React.FC = () => {
   return (
     <div className='Audio'>
       <h4>Aspens, by Mark Charles Smith</h4>

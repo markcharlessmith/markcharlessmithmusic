@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 
-const Contact = () => {
+const Contact: React.FC = () => {
   return (
     <>
       <h4 id='Contact-header'>Lessons</h4>
