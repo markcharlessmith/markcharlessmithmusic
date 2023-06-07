@@ -12,6 +12,7 @@ const MyNavbar: React.FC = () => {
         <Link to="/audio">Audio </Link>
         <Link to="/gallery">Gallery </Link>
         <Link to="/lessons">Lessons </Link>
+        <Link to="/store">Store </Link>
       </div>
     </div>
   )

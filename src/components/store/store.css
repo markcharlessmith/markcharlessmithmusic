@@ -1,0 +1,33 @@
+.store {
+  display: flex;
+  flex-direction: column;
+}
+
+.store-header {
+  text-align: center;
+}
+
+.store-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.store-body-left {
+  flex: 1;
+  padding: 20px;
+}
+
+.store-body-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.store-body-right img {
+  width: 100%;
+  height: auto;
+}
+
+/* Optional styling for the store title */
+h1 {
+  text-align: center;
+}

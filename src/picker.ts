@@ -13,7 +13,7 @@ const notes: string[] = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', '
 //     randomIndex = Math.floor(Math.random() * notes.length);
 //     randomNote = notes[randomIndex];
 //   }
-  
+
 //   return tetrad;
 // }
 

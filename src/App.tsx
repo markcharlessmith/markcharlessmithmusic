@@ -8,6 +8,7 @@ import Gallery from './components/gallery/Gallery'
 import Contact from './components/contact/Contact'
 import Home from './components/home/Home'
 import Copyright from './components/copyright/Copyright'
+import Store from './components/store/Store'
 import './App.css'
 import { images, compositionsList } from './data'
 
@@ -30,6 +31,7 @@ function App() {
       <Route path="/audio" element={<Audio />}/>
       <Route path="/gallery" element={<Gallery images={images}/>}/>
       <Route path="/lessons" element={<Contact />}/>
+      <Route path="/store" element={<Store />}/>
     </Routes>
     </div>
     <div className='App-footer'>
