@@ -27,7 +27,7 @@ function randomTetrad(notes: string[]): string[] {
     tetrad.push(notesCopy[randomIndex]);
     notesCopy.splice(randomIndex, 1);
   }
-
+  console.log("tetrad", tetrad)
   return tetrad;
 }
 
