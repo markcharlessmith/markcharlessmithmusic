@@ -9,7 +9,8 @@
   margin: 0 auto;
 }
 
-.Compositions-table td, th {
+.Compositions-table td,
+th {
   border: 1px solid rgb(18, 18, 18);
   border-radius: 5px;
   padding: 0.5rem 0.5rem;
@@ -27,7 +28,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  .Compositions-table td, th {
+
+  .Compositions-table td,
+  th {
     font-size: 0.7rem;
   }
 }

@@ -1,6 +1,7 @@
 import { RiInstagramFill, RiSpotifyFill, RiYoutubeFill } from 'react-icons/ri';
 import { FaBandcamp } from 'react-icons/fa';
 import { IoLogoVenmo } from 'react-icons/io5';
+import { SiSubstack } from 'react-icons/si';
 import './footer.css'
 
 const Footer: React.FC = () => {
@@ -11,6 +12,7 @@ const Footer: React.FC = () => {
       <p><a href="https://www.instagram.com/marktrek_/"><RiInstagramFill size='40'/></a></p>
       <p><a href="https://www.youtube.com/channel/UC6n4b0WQ5YfPp-a-gNSFCDg"><RiYoutubeFill size='40'/></a></p>
       <p><a href="https://markcharlessmith.bandcamp.com/"><FaBandcamp size='35'/></a></p>
+      <p><a href="https://markcharlessmith.substack.com/"><SiSubstack size='35'/></a></p>
       <p><a href="https://venmo.com/MCS913"><IoLogoVenmo size='35'/></a></p>
       </div>
     </div>

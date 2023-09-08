@@ -42,4 +42,6 @@ while (counter > 0) {
 console.log(fourByFour)
 
 console.log(randomTetrad(notes));
+
+
 export default notes

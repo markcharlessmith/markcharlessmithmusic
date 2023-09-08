@@ -12,6 +12,7 @@ import Store from './components/store/Store'
 import './App.css'
 import { images, compositionsList } from './data'
 
+
 function App() {
   return (
     <>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './store.css'
+import image from '../../assets/Kickstarter.jpg';
 
 const Store: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ const Store: React.FC = () => {
           <p>Coming soon!</p>
         </div>
         <div className='store-body-right'>
-          <img src='https://images.unsplash.com/photo-1612835362596-4b0b0e2b5b0b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3RvcmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80' alt='store'/>
+          <img src={image} alt='Kickstarter' />
         </div>
       </div>
     </div>

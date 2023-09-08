@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './gallery.css';
-// import images from '../../App'
-// import { images } from '../../data'
+import { images } from '../../data'
 
 type GalleryProps = {
   images: string[];
@@ -20,7 +19,7 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
 
   return (
     <div className="gallery">
-      <img src={images[currentImage]} alt="" />
+      <img src={images[currentImage]} alt="Gallery Image" />
       <div className="buttons">
         <button onClick={handlePrevClick}>Prev</button>
         <button onClick={handleNextClick}>Next</button>
