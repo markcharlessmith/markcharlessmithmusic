@@ -9,22 +9,16 @@ interface Composition {
 
 export const compositionsList: Composition[] = [
   {
-    title: 'Six Preludes for Guitar',
-    movements: ['in C Major', 'in e minor', 'in b minor', 'in e flat minor', 'in F Major', 'in d minor'],
+    title: 'Fourteen Preludes for Guitar',
+    movements: ['in C Major', 'in G Major', 'in e minor', 'in D Major', 'in b minor', 'in A Major', 'in f sharp minor', 'in E Major', 'in e flat minor', 'in D flat Major', 'in b flat minor', 'in f minor', 'in F Major', 'in d minor'],
     instrumentation: 'Guitar',
-    year: '2023',
+    year: '2021-23',
   },
   {
-    title: '_____ Pieces for Guitar',
+    title: 'Two Pieces for Guitar',
     movements: ['I. Firsts', 'II. Octopus Dance'],
     instrumentation: 'Guitar',
     year: '2023',
-  },
-  {
-    title: 'Seven Preludes for Guitar',
-    movements: ['in D Major', 'in A Major', 'in E Major', 'in f sharp minor', 'in D flat Major', 'in b flat minor', 'in f minor'],
-    instrumentation: 'Guitar',
-    year: '2021',
   },
   {
     title: 'Where Light Exists...',
