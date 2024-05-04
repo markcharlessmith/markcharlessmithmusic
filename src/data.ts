@@ -9,10 +9,15 @@ interface Composition {
 
 export const compositionsList: Composition[] = [
   {
-    title: 'Fourteen Preludes for Guitar',
-    movements: ['in C Major', 'in G Major', 'in e minor', 'in D Major', 'in b minor', 'in A Major', 'in f sharp minor', 'in E Major', 'in e flat minor', 'in D flat Major', 'in b flat minor', 'in f minor', 'in F Major', 'in d minor'],
+    title: 'Twenty-Four Preludes for Guitar',
+    movements: ['No. 01 in C Major', 'No. 02 in a minor', 'No. 03 in G Major', 'No. 04 in e minor',
+    'No. 05 in D Major', 'No. 06 in b minor', 'No. 07 in A Major', 'No. 08 in f sharp minor',
+    'No. 09 in E Major', 'No. 10 in c sharp minor', 'No. 11 in B Major', 'No. 12 in g sharp minor',
+    'No. 13 in F sharp Major', 'No. 14 in e flat minor', 'No. 15 in D flat Major', 'No. 16 in b flat minor',
+    'No. 17 in A flat Major', 'No. 18 in f minor', 'No. 19 in E flat Major', 'No. 20 in c minor',
+    'No. 21 in B flat Major', 'No. 22 in g minor', 'No. 23 in F Major', 'No. 24 in d minor'],
     instrumentation: 'Guitar',
-    year: '2021-23',
+    year: '2021-24',
   },
   {
     title: 'Two Pieces for Guitar',
